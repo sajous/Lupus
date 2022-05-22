@@ -142,7 +142,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-RISPY_TEMPLATE_PACK = 'bootstrap5'
+RISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 SITE_ID = 1
@@ -155,3 +155,5 @@ ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_EMAIL_REQUIRED = True
 # Email único
 ACCOUNT_UNIQUE_EMAIL = True
+
+ACCOUNT_LOGOUT_REDIRECT_URL = "/login"
