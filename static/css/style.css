@@ -1,0 +1,17 @@
+body{
+    background: rgb(6,250,157);
+    background: radial-gradient(circle, rgba(6,250,157,1) 0%, rgba(70,110,252,1) 100%);
+    color: black;
+}
+
+
+.organizar{
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-right: 20%;
+    padding-bottom: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
